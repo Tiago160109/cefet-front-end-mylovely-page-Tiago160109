@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    margin-top: 0;
+}
+#Easter {
+    position: absolute;
+    margin-left: 7px;
+    opacity: 0;
+    color: blue;
+    text-shadow: none;
+}
+#Easter:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    opacity: 1;
+    cursor: pointer;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, .25);
+    text-align: center;
+}
+
+header ul {
+    font-family: "Agdasima", sans-serif;
+    background-color: rgb(34, 49, 255);
+    font-size: 130%;
+    padding-bottom: 3px;
+}
+
+header li {
+    display: inline-block;
+    padding-left: 0;
+    margin: 0 3em;
+
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(3, 255, 179);
+}
+
+a:visited {
+    color: rgb(253, 89, 89);
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: black;
+}
+
+thead {
+    font-size: large;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: rgb(17, 0, 255);
+}
+#voltar {
+  background-color: rgb(2, 0, 99);
+  border-radius: 5px;
+  border: 2px solid rgb(11, 157, 255);
+  font-size: 25px;
+  width: 30px;
+  height: 30px;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  opacity: 0.4;
+}
+#voltar:hover{
+    color: orange;
+    opacity: 1;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url("fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Agdasima";
+    src: url("fonts/Agdasima-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Caveat";
+    src: url(fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+table {
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Pacifico";
+    font-size: 110%;
+    color: #0003c9;
+    text-shadow: 1px 1px black;
+    margin: 0;
+}
+#Martelo {
+    font-size: 150%;
+    text-align: right;
+}
+
+h3 {
+    font-size: 130%;
+    text-align: left;
+    color: #0003c9;
+    text-shadow: 1px 1px black;
+    font-family: "Caveat";
+}
+
+dt {
+
+    align-items: center;
+    color: #000000;
+    background-color: #0003c9;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+dl {
+    font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+    font-size: x-large;
+}
+
+.Amigos{
+    text-align: left;
+    font-size: 140%;
+}
+audio {
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+iframe {
+    
+    margin-top: 2em;
+    width: 350px;
+    height: 250px;
+}
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#img3 {
+    width: 130px;
+    height: 110px;
+    float: right;
+    border: solid 3px black;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 20em;
+}
+#img4{
+    display: flex;
+    width: 700px;
+    height: 350px;
+    float: right;
+    border: 3px solid black;
+}
+html {
+    background-image: url("imgs/fundo-do-oceano.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #2600ff;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    margin: 0;
+    font-family: "Pacifico";
+}
+
+#P {
+    font-size: medium;
+}
+
+p {
+    text-align: left;
+    font-family: "Roboto", cursive;
+    font-size: 100%;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+    margin-left: 6em;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+dd {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.img1 {
+    display: flex;
+    width: 700px;
+    height: 350px;
+    float: left;
+    border: 3px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 3em;
+    clear: right;
+}
