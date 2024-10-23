@@ -63,8 +63,8 @@ thead {
   border-radius: 5px;
   border: 2px solid rgb(11, 157, 255);
   font-size: 25px;
-  width: 30px;
-  height: 30px;
+  width: 5%;
+  height: 5%;
   line-height: 1em;
   text-align: center;
   text-decoration: none;
@@ -159,8 +159,8 @@ iframe {
     flex-wrap: wrap;
 }
 #img3 {
-    width: 130px;
-    height: 110px;
+    height: 7%;
+    width: 9%;
     float: right;
     border: solid 3px black;
     border-radius: 5px;
@@ -169,8 +169,8 @@ iframe {
 }
 #img4{
     display: flex;
-    width: 700px;
-    height: 350px;
+    width: 50%;
+    height: 50%;
     float: right;
     border: 3px solid black;
 }
@@ -206,6 +206,7 @@ p {
 table {
     border-collapse: collapse;
     width: 200px;
+    height: 80%;
     margin-left: 6em;
 }
 
@@ -223,12 +224,18 @@ dd {
 
 .img1 {
     display: flex;
-    width: 700px;
-    height: 350px;
+    width: 50%;
+    height: 2%;
     float: left;
     border: 3px solid black;
 }
-
+#img2 {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    float: left;
+    border: 3px solid black;
+}
 footer {
     display: flex;
     justify-content: space-around;
